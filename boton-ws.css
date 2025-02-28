@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+
+/* Botón flotante */
+
+.btn-ws {
+  position: fixed;
+  color: #fff;
+  font-size: 25px;
+  height: 40px;
+  width: 40px;
+  bottom: 30px;
+  right: 15px;
+  background: #0df053;
+  padding: 8px;
+  border-radius: 50%;
+  align-items: center;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  z-index: 100;
+}
+
+.btn-ws:hover {
+  background-color: #41fa7a;
+}
+
+@media (min-width:576px) {
+  .btn-ws {
+    right: 10px;
+  }
+}
+@media (min-width:1024px) {
+  .btn-ws {
+    right: 20px;
+  }
+}

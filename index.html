@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="es-ve" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Yampiero Mujica">
+  <meta name="title" content="WebZona">
+  <meta name="description" content="">
+  <meta name="keywords" content="Programación, Web, Diseño web, HTML, CSS, JavaScript, Yampiero, certificados, testimonios, webzona">
+  <meta name="theme-color" content="#4682B4">
+  <title>WebZona</title>
+  <link rel="shortcut icon" type="image/x-icon" href="webzona-favico.png">
+
+  <!-- CSS -->
+
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="fuentes.css">
+  <link rel="stylesheet" href="boton-ws.css">
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="">
+  <link rel="stylesheet" href="icofont.min.css">
+  <link rel="stylesheet" href="animate.min.css">
+
+
+  <!-- JavaScript -->
+
+  <script defer src="index.js"></script>
+  <script defer src="tema.js"></script>
+  <script defer src="script.js"></script>
+  <script defer src="popper.min.js"></script>
+  <script defer src="loaderPage.js"></script>
+
+  <script defer src="validar-formulario.js"></script>
+
+  <script defer src="scroll.js"></script>
+  <script defer src="bootstrap.min.js"></script>
+
+</head>
+
+<body class="grid__contenedor">
+
+  <header class="header" id="inicio" title="Foto de Lee Campbell.">
+    <nav class="nav">
+
+      <div class="nav__elementos">
+        <div class="logo">
+
+          <figure><a href="#inicio"><img src="webzona-logo.png" class="brand__logo" role="img" alt="logo del brand" aria-label="Brand" title="Brand" alt="Logo de la marca"> </a>         </figure>
+        </div>
+        <div class="elementos__ico">
+          <figure class="main__light me-3">
+            <label for="modo">
+              <span class="icofont-duotone icofont-increase img__tema" id="" title="Ajustar color del tema"></span>
+              <input type="checkbox" id="modo" class="main__check">
+            </label>
+          </figure>
+          <figure><span class="icofont-navigation-menu hamburger" alt="Menú" title="Menú" role="img" aria-label="Menú"></span></figure>
+        </div>
+      </div>
+
+      <a href="https://wa.me/message/5WCITO3IG63IO1" title="Escríbenos en WhatsApp" aria-label="Icono de WhatsApp" class="btn-ws" role="link" target="_blank"><span class="icofont-brand-whatsapp btn-ws" alt="Icono de WhatsApp" role="img" aria-label="Logo de WhatsApp"></span>
+      </a>
+
+      <ul class="menu-navegacion" rol="nav">
+        <li><a class="link" href="#inicio"> <span class="icofont-home"></span> Inicio</a></li>
+        <li><a class="link" href="#sobre-mi"><span class="icofont-user"></span> sobre mí</a></li>
+
+        <li><a class="link" href="#servicio"><span class="icofont-tools-alt-2"></span> Servicio</a></li>
+       
+        <li><a class="link" href="#testimonios"><span class="icofont-speech-comments"></span> Testimonios</a></li>
+       <!-- <li class=""><a class="link" href="#faq"><span class="icofont-support-faq"></span> Preguntas Frecuentes</a>
+        </li> -->
+        <li class=""><a class="link" href="https://yampicode.blogspot.com" target="_blank"><span class="icofont-blogger"></span> Blog</a>
+        </li>
+        <li><a class="link" href="#footer"><span class="icofont-support"></span> Contacto</a></li>
+
+        <span class="icofont-close close" alt="Cerrar menú" title="Cerrar menú" role="img" aria-label="Cerrar menú"></span>
+      </ul>
+    </nav>
+
+    <div class="contenedor head" title="Foto de Monoar Rahman en Pexels">
+      <h1 id="" class="titulo
+        animate__animated animate__bounceInUp animate__slower animate__delay-1s">
+        <stromg>WebZona</stromg>
+      </h1>
+      <p class="copy animate__animated animate__swing animate__delay-3s animate__slower mb-2">
+        Creamos sitios web modernos para tu empresa, marca o emprendimiento.
+      </p>
+      <a href="index.html#presupuesto" class="btn btn-primary animate__animated animate__swing animate__delay-3s animate__slow">Cotiza con nosotros</a>
+    </div>
+    <figure>
+      <svg class="wave wave-light" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none">
+        <path fill=" #fff" fill-opacity="1" d="M0,96L34.3,128C68.6,160,137,224,206,218.7C274.3,213,343,139,411,128C480,117,549,171,617,208C685.7,245,754,267,823,272C891.4,277,960,267,1029,245.3C1097.1,224,1166,192,1234,181.3C1302.9,171,1371,181,1406,186.7L1440,192L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path>
+      </svg>
+
+      <svg class="wave wave-dark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none">
+        <path fill=" #111" fill-opacity="1" d="M0,96L34.3,128C68.6,160,137,224,206,218.7C274.3,213,343,139,411,128C480,117,549,171,617,208C685.7,245,754,267,823,272C891.4,277,960,267,1029,245.3C1097.1,224,1166,192,1234,181.3C1302.9,171,1371,181,1406,186.7L1440,192L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path>
+      </svg>
+    </figure>
+
+    <div class="loader-page" id="loader-page">
+      <figure>
+        <img class="img__loader-page animate__animated animate__fadeIn animate__slow" src="webzona.png" alt="Logo" />
+      </figure>
+    </div>
+  </header>
+  <main>
+
+    <!-- Quién soy -->
+
+    <section id="sobre-mi" class="cont-sobre-mi">
+      <div class="contenedor">
+
+        <h2 class="sobre-mi__subtitulo">Soy Yampiero Mujica</h2>
+
+        <div class="sobre-mi__contenido">
+          <figure class="figure__sobreMi"><a href="yampicode.png">
+            <img class="yo__img" id="yo__img" src="yampicode.png" alt="Foto de Yampiero Mujica" title="Foto de Yampiero Mujica" aria-label="Foto de Yampiero Mujica" role="img">
+          </a>
+            <figcaption class=""><small class="">Desarrollador Web front-end (freelancer). <span class="icofont-computer"></span></small></figcaption>
+          </figure>
+
+          <p id="animado" class="parrafo text-center mt-2">
+            En <strong>WebZona</strong> nos especializamos en el diseño y desarrollo de sitios web en el estado Carabobo, desarrollo de tiendas online, marketing digital y optimización. Somos una empresa de diseño y desarrollo web en Puerto Cabello Venezuela
+            experto en <em>HTML, CSS, Javascript</em>, también en diversas tecnologías como lo son <em>Bootstrap, Icofont, animate.com, Angular</em> y muchas otras más, que nos  permiten desarrollar <strong>sitios web</strong> en el lado del cliente (<em>front-end</em>).
+            <br />
+            Ofreciendo sitios web modernos, adaptables a distintos dispositivos, accesibles a todos los usuarios y con optimización.
+          </p>
+        </div>
+
+        <div class="experto">
+          <h2 class="subtitulo animate__animated animate__jackInTheBox animate__delay-3s animate__slower">Experto en:</h2>
+
+          <div class="experts">
+            <div class="row fila">
+              <div class=" col-6 cont-expert animate__animated animate__bounceInLeft
+                animate__slower
+                animate__delay-3s">
+                <figure>
+                  <img src="html-monochromatic.svg" alt="Imagen de una laptop con el nombre de HTML" title="HTML" aria-label="Imagen de una lapto con el nombre de HTML" role="img">
+                </figure>
+                <h3 class="n-expert">HTML</h3>
+              </div>
+              <div class="col-6 cont-expert animate__animated animate__bounceInLeft
+                animate__slower
+                animate__delay-3s">
+                <figure>
+                  <img src="css-monochromatic.svg" alt="Imagen de una laptop con el nombre de CSS" title="CSS" aria-label="Imagen de una lapto con el nombre de CSS" role="img">
+                </figure>
+                <h3 class="n-expert">CSS</h3>
+              </div>
+            </div>
+            <div class="row fila">
+
+
+              <div class="col-6 cont-expert animate__animated animate__bounceInRight
+                animate__slower
+                animate__delay-3s"
+                >
+                <figure>
+                  <img src="javascript-monochromatic.svg" alt="Imagen de una laptop con el nombre de JavaScript" class=""
+                  title="JavaScript" aria-label="Imagen de una lapto con el nombre de JavaScript" role="img">
+                </figure>
+                <h3 class="n-expert">JavaScript</h3>
+              </div>
+
+              <div class="col-6 cont-expert animate__animated animate__bounceInRight
+                animate__slower
+                animate__delay-3s">
+                <figure>
+                  <img src="seo-monochromatic-1adc1.svg" alt="Diseño adaptable en distintas pantallas" class=""
+                  title="SEO" aria-label="Gráfico de SEO" role="img">
+                </figure>
+                <h3 class="n-expert ">SEO</h3>
+              </div>
+            </div>
+
+            <div class="certificados">
+              <h2 class="subtitulo ">Certificados <span class="icofont-certificate-alt-1 "></span></h2>
+              <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                  <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="desarrolloWeb.png" class="d-block" alt="Certificado en desarrollo web">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="cssAvanzado.png" class="d-block" alt="Certificado en CSS Avanzado">
+                  </div>
+
+                  <div class="carousel-item">
+                    <img src="gitygithub.png" class="d-block" alt="Certificado en Git y GitHub">
+                  </div>
+                  
+                  <div class="carousel-item">
+                    <img src="potenciaTuIngles.png" class="d-block" alt="Certificado en el taller Potencia tu inglés">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="arteEnElCodigo.png" class="d-block" alt="Certificado en Arte en el código.">
+                  </div>
+                  
+                   <div class="carousel-item">
+                <img src="UX-UI.png" class="d-block" alt="Certificado en UX/UI.">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+
+          </div>
+
+
+          <figure>
+            <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none">
+              <path fill="#46B482" fill-opacity="1" d="M0,96L34.3,128C68.6,160,137,224,206,218.7C274.3,213,343,139,411,128C480,117,549,171,617,208C685.7,245,754,267,823,272C891.4,277,960,267,1029,245.3C1097.1,224,1166,192,1234,181.3C1302.9,171,1371,181,1406,186.7L1440,192L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path>
+            </svg>
+          </figure>
+        </div>
+<a href="index.html#presupuesto" class="mt-3 btn btn-primary animate__animated animate__swing animate__delay-3s animate__slow">Cotiza con nosotros</a>
+      </section>
+
+      <!-- Servicios -->
+
+      <section class="servicio" id="servicio">
+        <div class="contenedor">
+          <h2 id="subtitulo-animado" class="servicio__subtitulo">Servicios</h2>
+          <div class="contenedor-servicio">
+            <figure>
+              <img src="checklist.svg" class="servicio__img" id="" alt="Revisando lista" title="Chequeando lista" aria-label="Revisando lista" role="img">
+            </figure>
+            <div class="checklist-servicio">
+              <div class="service">
+                <h4 class="n-service"><span class="number">1</span>Diseño web</h4>
+                <div class="servicio__contenido">
+
+                  <p class="parrafo">
+                    Ya que, un sitio web es la cara de la empresa en el entorno digital, es muy importante el diseño de la misma. Por esta razón diseño web moderno, sofisticado, funcional basado principalmente en la identidad de la marca (brand) de la empresa, garantizando así, una web presentable, intuitiva y fácil de usar para todas las edades.
+                  </p>
+                  <figure class="fg__ico ">
+                    <span class="icofont-dashboard-web ico__servicio" id="ico__servicio-1"></span>
+                  </figure>
+                </div>
+
+              </div>
+              <div class="service">
+                <h4 class="n-service"><span class="number">2</span>Diseño Adaptable</h4>
+                <div class="servicio__contenido">
+                  <p class="parrafo">
+                    Casi la mayoria de los usuarios ingresan a un sitio web desde su Smartphone o table, y al ver la gran influencia que esto tiene me baso en el concepto "<strong>Mobile First</strong>", conociendo la gran importancia y valor que esto tiene, además, de su gran impacto en la internet, aseguro que el sitio web se adapte a cualquier tamaño de pantalla para una buena experiencia al usuario.
+                  </p>
+                  <figure class="fg__ico">
+                    <span class="icofont-responsive ico__servicio" id="ico__servicio-2"></span>
+                  </figure>
+                </div>
+              </div>
+              
+              <div class="service">
+                <h4 class="n-service"><span class="number">3</span>Accesibilidad</h4>
+                <div class="servicio__contenido">
+
+                  <p class="parrafo">
+                    Así, como en ámbito físico existen herramientas y accesibilidad para que las personas que las necesiten puedan integrarse a la sociedad. Así también ocurre en el ámbito digital, ya que, internet es un lugar para todos, es muy importante que un sitio web sea accesible para todos los usuarios sin importar su incapacidad física.
+                  </p>
+                  <figure class="fg__ico">
+                    <span class="icofont-optic ico__servicio" id="ico__servicio-3"></span>
+                  </figure>
+                </div>
+              </div>
+
+              <div class="service">
+                <h4 class="n-service"><span class="number">4</span>SEO</h4>
+                <div class="servicio__contenido">
+
+                  <p class="parrafo">
+                    Cada marca tiene su propia identidad, definir cuál es la identidad de tu sitio web será la forma más adecuada para que se acerquen y quieran permanecer contigo.
+                Contamos con  conocimiento necesario y técnicas funcionales de optimización en motores de búsquedas en  buscadores como Google, Bing, Yahoo entre otros, para ayudar a impulsar, darle crecimiento y expansión a tú sitio web para así, llegar a más usuarios.
+                  </p>
+                  <figure class="fg__ico">
+                    <span class="icofont-space-shuttle ico__servicio" id="ico__servicio-4"></span>
+                  </figure>
+                </div>
+              </div>
+               <a href="index.html#presupuesto" class="mt-3 btn btn-primary animate__animated animate__swing animate__delay-3s animate__slow">Cotiza con nosotros</a>
+            </div>
+           
+          </div>
+          
+        </div>
+
+      </div>
+
+    </section>
+    
+    <section class="precios" id="precios">
+      <div class="contenedor">
+        <hgroup class="">
+           <h2 class="subtitulo text-white">¿Tienes un proyecto en mente?</h2>
+         <h3 class="text-center text-white">Desde 170<sup>$</sup> y con distintos métodos de pagos, Incluye:</h3>
+        </hgroup>
+       <div class="precio__contenido mt-4">
+         
+         <figure id="animacionPrecioImg"><img class="precio__img" src="responsivo.svg" alt="Ilustración de una laptop grande con un chico a la izquierda y una chica a la derecha." /></figure>
+     
+     <ul class="" id="animacionPrecioUl">
+       <li class="">Diseño personalizado.</li>
+       <li class="">Diseño adaptable.</li>
+       <li class="">Nivel de accesibilidad moderado.</li>
+       <li class="">Diseño de formularios y base de datos con sus conexiones.</li>
+       <li class="">Hosting y dominio.</li>
+        <li class="">Gestión en la creación de correos corporativos.</li>
+         <li class="">Asesoría gratis.</li>
+     </ul>
+     
+     
+      </div>
+      <div class="precios__btn">
+        <a href="index.html#presupuesto" class="mt-3 btn btn-primary">Cotiza con nosotros</a>
+      </div>
+      
+      </div>
+       <p class="text-center pb-3"><small>*Los precios varian según la complejidad del proyecto.</small>
+       </p>
+    </section>
+
+   <!-- <section class="proyectos" id="proyectos">
+      <div class="cont__proyectos contenedor">
+        <h2 class="subtitulo"> Proyectos</h2>
+        <div class="cards__proyectos">
+
+
+          <div class="card">
+            <img src="colores-aleatorio.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Colores Aleatorio</h5>
+              <p class="card-text">
+                Una herramienta útil para los diseñadores web, diseñadores gráfico y creadores de contenido donde pueden elegir un color obteniendo su código hexadecimal.
+              </p>
+              <a href="https://yampiero-colores-aleatorio.vercel.app/" class="btn btn-primary">Ver proyecto</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="colores-rgb.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Colores RGB</h5>
+              <p class="card-text">
+                Una herramienta útil para los diseñadores web, diseñadores gráfico y creadores de contenido donde pueden elegir un color obteniendo su código en RGB.
+              </p>
+              <a href="https://colores-rgb-yampiero.vercel.app/" class="btn btn-primary">Ver proyecto</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+       </section>-->
+      
+
+    <!-- Testimonios -->
+
+    <section class="testimonio" id="testimonios">
+      <div class="contenedor__testimonio contenedor">
+        <h2 class="subtitulo">Testimonio</h2>
+        <div class="contenido__testimomio py-2">
+
+          <figure class="figure__testimonio mx-auto">
+            <a class="" href="lyandro.jpg">
+              <img class="img__testimomio" src="lyandro.jpg" alt="Foto de Lyandro Negrín de Trébol Group, C.A." />
+            </a>
+            <figcaption><small>Foto de Angélica Gómez en Trébol Group, C.A.</small></figcaption>
+          </figure>
+          <div class="texto__testimonio">
+            <hgroup class="mb-3 hgroup__testimonio animate__animated animate__flipInX
+              animate__slow
+              animate__delay-4s">
+              <h3 class="subtitulo">Soy Lyandro Negrín</h3>
+              <h4 class="subtitulo__testimonio">Gerente de comercio de <em>Trébol Group, C.A.</em></h4>
+            </hgroup>
+            <p class="parrafo__testimonio px-2 animate__animated animate__fadeInRight animate__delay-2s animate__slow">
+              <span class="icofont-quote-left"></span>
+              Diseño atractivo e intuitivo en base a la identidad de la empresa. <span class="icofont-quote-right"></span>
+            </p>
+          </div>
+        </div>
+        <a href="https://www.trebolgroup.com.ve" target="_blank" rol="link" class="cta__testimonio btn btn-primary animate__animated animate__fadeInLeft animate__delay-2s animate__slow" type="button">Ver página</a>
+        <figure>
+          <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none">
+            <path fill="#46B482" fill-opacity="1" d="M0,96L34.3,128C68.6,160,137,224,206,218.7C274.3,213,343,139,411,128C480,117,549,171,617,208C685.7,245,754,267,823,272C891.4,277,960,267,1029,245.3C1097.1,224,1166,192,1234,181.3C1302.9,171,1371,181,1406,186.7L1440,192L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path>
+          </svg>
+        </figure>
+      </div>
+
+    </section>
+
+<!--
+    <section class="acordeon" id="faq">
+
+      <div class="contenedor">
+        <h2 class="subtitulo text-center mb-5">Preguntas Frecuentes</h2>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item ">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Diseño Web
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong><span class="titulo__acordeon">Diseño web basado en la identidad de la empresa.</span></strong> Su sitio web no estará aislado o ajeno a la misión y visión de tu empresa, tendrá toda la información y herramientas necesarias para que sus clientes se acerque más a su empresa o producto con un diseño que va a la par de la marca y de su identidad.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item mt-1">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Habilidades
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong><span class="titulo__acordeon">Experto en HTML, CSS y JavaScript.</span></strong> Su sitio web tendrá un aspecto genial, profesional, presentable e interactivo. Sin complicaciones al navegar en él, ya que, se valdrá de una interfaz intuitiva y moderna, minimalista, mas no simple para su fácil manejo y comprensión.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item mt-1">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Diseño adaptable
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong><span class="titulo__acordeon">Aplicando el concepto de Mobile first.</span></strong> Conociendo la gran importancia y valor que esto tiene, además, de su gran impacto en la internet, su sitio web se adaptará a cualquier tamaño de pantalla para una buena experiencia al usuario al navegar en él.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+ </section>
+-->
+
+    <section class="presupuesto" id="presupuesto">
+      <div class="contenedor">
+        <h2 class="subtitulo">Iniciemos tu proyecto web hoy. </h2>
+        <p class="parrafo text-center">
+          Escríbenos a este formulario o escríbenos al WhatsApp.
+        </p>
+        <div class="cont__aside">
+
+
+          <form id="formUsuario" class="was-validated form__aside" action="https://formspree.io/f/mbldvjqy" method="post" onsubmit=" validarFormulario()">
+            <div class="inputs__contenedor">
+              <div class="inputs">
+                <label for="nombre">Nombre: </label>
+                <input type="text" name="nombre" class="form-control" id="nombre" value="" placeholder="Escribe tu nombre" required pattern="[a-zA-Z\s]{2,15}" title="Solo letras y espacios de 2 a 15 carácteres."/>
+
+              </div>
+              <div class="inputs">
+                <label for="apellido">Apellido: </label>
+                <input type="text" name="apellido" class="form-control" id="apellido" placeholder="Escribe tu apellido" required pattern="[a-zA-Z\s]{2,15}" title="Solo letras y espacios de 2 a 15 carácteres."/>
+              </div>
+              <div class="inputs">
+                <label for="Whatsapp" class="">Whatsapp: </label>
+
+                <input type="tel" name="Whatsapp" class="form-control" id="Whatsapp" value="" placeholder="Ingresa tu WhatsApp" required pattern="\+\d{8,15}" title="Por favor, introduce un número de WhatsApp válido (ej: +5491123456789)."/>
+                <small class="">(Ejemplo: +584125555555)</small>
+              </div>
+              <div class="inputs">
+                <label for="comentario" class="">Comentario: </label>
+                <textarea class="form-control" id="comentario" name="comentario" placeholder="Realiza un comentario" rows="3" required maxlength="250" title="Tiene un máximo de 250 carácteres."></textarea>
+
+              </div>
+              <input type="submit" name="enviar" class="btn btn-success mt-3 w-100" id="enviar" value="Enviar" />
+            </div>
+          </form>
+
+          <figure class="figure__form"><img class="form__logo" src="webzona.png" alt="Logo" /></figure>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+
+  <footer id="footer">
+    <div class="contenedor footer-content">
+      <div class="contact-us">
+        <figure>
+          <a href="#inicio">
+            <img src="webzona-logo.png" class="brand__contact-us" role="img" alt="Logo" aria-label="Brand" title="Brand">
+          </a>
+        </figure>
+
+        <p>
+          Que tu sueño se haga realidad
+        </p>
+      </div>
+
+      <div class="medios">
+
+        <form class="medios__form" action="https://formspree.io/f/xjkgqlal" method="post" id="newsletter">
+          <fieldset class="">
+
+            <legend class="leyenda__newsletter"><span class="icofont-email icofont-3x text-center"></span>
+              <br />
+              Suscríbete a la newsletter</legend>
+
+            <div class="form__inputs">
+              <label for="email"></label>
+              <input type="email" placeholder="Email:" id="email" class="input__email" name="email" title="Ingresar e-mail">
+
+              <input type="submit" value="Regístrate" class="input__submit btn btn-success" title="Regístrate" role="button">
+            </div>
+            <p id="mensajeError" class="parrafo__newsletter"></p>
+          </fieldset>
+        </form>
+
+      </div>
+    </div>
+
+    <div>
+
+      <div class="social-media">
+
+        <a href="https://instagram.com/yampieromusic" target="_blank" class="social-media-icon">
+          <span class="icofont-instagram" alt="Instagram" title="Ir a Instagram" aria-label="Ir a Instagram" role="img"></span>
+        </a>
+        <a href="https://x.com/yampi_rap" class="social-media-icon" target="_blank">
+          <span class="icofont-x"></span>
+        </a>
+        <a href="https://ve.linkedin.com/in/yampi-code" target="_blank" class="social-media-icon">
+          <span class="icofont-linkedin" alt="Linkedin" title="Ir a Linkedin" aria-label="Ir a Linkedin" role="img"></span>
+        </a>
+
+        <a href="https://github.com/yampieromujica" target="_blank" class="social-media-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" class="github"fill="#fff" class="bi bi-github" viewBox="0 0 16 16">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+          </svg>
+        </a>
+      </div>
+
+      <div class="line">
+      </div>
+      <p class="pie">
+        Desarrollado por Yampiero Mujica - WebZona 2025 &copy;
+      </p>
+    </div>
+  </footer>
+
+  <script src="validar.js"></script>
+</body>
+</html>

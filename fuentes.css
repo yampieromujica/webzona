@@ -1,0 +1,19 @@
+@font-face {
+	font-family: "icofont";
+	src: url(icofont.ttf);
+}
+
+@font-face {
+  font-family: "archivo black";
+  src: url(Archivoblack-Regular.ttf);
+}
+
+@font-face {
+  font-family: "tahoma";
+  src: url(../fuentes/tahoma.ttf);
+}
+
+@font-face {
+  font-family: "league spartan";
+  src: url(leagueSpartan.ttf);
+}
