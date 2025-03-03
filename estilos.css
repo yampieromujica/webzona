@@ -544,7 +544,7 @@ margin-top: 50px;
 /* Proyectos */
 
 .proyectos .subtitulo {
-  color: var(--color-white);
+  color: var(--text-color);
 }
 
 .cards__proyectos {
