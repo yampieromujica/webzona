@@ -543,11 +543,6 @@ margin-top: 50px;
 
 /* Proyectos */
 
-.proyectos {
-  position: relative;
-  background-color: #46B482;
-}
-
 .proyectos .subtitulo {
   color: var(--color-white);
 }
