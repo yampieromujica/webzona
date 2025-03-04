@@ -650,6 +650,7 @@ margin-top: 50px;
 /* Presupuesto */
 
 .presupuesto{
+  position: relative;
   background-color: var(--bg-color-secundario);
   color: var(--color-white);
 }
